@@ -1,7 +1,7 @@
 FROM buildpack-deps:jessie-curl
 MAINTAINER Jonathon Leight <jonathon.leight@jleight.com>
 
-ENV BSN_VERSION 0.2.0
+ENV BSN_VERSION 0.3.0
 ENV BSN_GITHUB  https://github.com/bosun-monitor/bosun
 ENV BSN_BASEURL ${BSN_GITHUB}/releases/download/${BSN_VERSION}
 ENV BSN_PACKAGE bosun-linux-amd64
